@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Estilos do cabeçalho */
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos do banner principal */
+  .banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .banner h2 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .banner p {
+    font-size: 1.5rem;
+  }
+  
+  /* Estilos da seção Sobre Nós */
+  #sobre {
+    background-color: #f7f7f7;
+    padding: 2rem;
+  }
+  
+  #sobre h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  #sobre p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  /* Estilos da seção Nossos Produtos */
+  #produtos {
+    padding: 3rem;
+
+  }
+  
+  #produtos h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  
+  }
+    
+  
+  #produtos ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+
+  }
+  
+  #produtos  li {
+    background-color: #f7f7f7;
+    padding: 1rem;
+  }
+  
+  /* Estilos da seção Entre em Contato */
+  #contato {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+  }
+  
+  #contato h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  
+  label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  input,
+  textarea {
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #333;
+    color: #fff;
+  }
